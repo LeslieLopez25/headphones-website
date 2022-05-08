@@ -215,3 +215,8 @@ img {
     color: var(--white-color);
     cursor: pointer;
 }
+
+/* SHOW MENU */
+.show-menu {
+    top: 0;
+}
