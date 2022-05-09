@@ -226,6 +226,14 @@ img {
     background-color: var(--body-color);
 }
 
+/* ACTIVE LINK */
+.active-link {
+    background: var(--white-color);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 /* HOME */
 .home__img {
     width: 250px;
