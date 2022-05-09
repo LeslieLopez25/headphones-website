@@ -525,3 +525,27 @@ img {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
 }
+
+/* SCROLL UP */
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    display: flex;
+    background-color: var(--container-color);
+    border-radius: .25rem;
+    padding: .45rem;
+    opacity: 9;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+
+.scrollup__icon {
+    color: var(--white-color);
+    font-size: 1.35rem;
+}
+
+.scrollup:hover {
+    background-color: var(--black-color);
+    opacity: 1;
+}
